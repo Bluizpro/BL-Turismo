@@ -1,0 +1,313 @@
+﻿body {
+    background-color: #f2f2f2;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: 'Ruda', sans-serif;
+    font-weight: 900;
+    color: #333;
+}
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.goleft {
+    text-align: left;
+}
+
+a {
+    word-wrap: break-word;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+    a:hover,
+    a:focus {
+        color: #7b7b7b;
+        text-decoration: none;
+        outline: 0;
+    }
+
+    a:before,
+    a:after {
+        -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+        -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+        -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+        -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+        transition: color 0.1s ease-in, background 0.1s ease-in;
+    }
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar {
+    font-size: 14px;
+    background: #ffffff;
+}
+
+.navbar-fixed-top {
+    border-width: 0 0 0px;
+    border-bottom-width: 0px;
+}
+
+
+.spacing i {
+    padding-left: 8px;
+    padding-right: 8px
+}
+
+.mt {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.mts {
+    margin-top: -20px;
+}
+
+
+
+.si {
+    visibility: hidden;
+}
+
+    .si:hover {
+        background-color: #ffffff;
+    }
+
+    .si i {
+        font-size: 40px;
+        padding: 20px;
+    }
+
+
+.pt {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.desc p {
+    font-family: 'Ruda', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+    .desc p > i {
+        font-size: 16px;
+        color: #979797;
+    }
+
+        .desc p > i:hover {
+            font-size: 16px;
+            color: #e74c3c;
+            cursor: pointer;
+        }
+
+    .desc p.lead {
+        font-family: 'Ruda', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: -15px;
+    }
+
+    .desc p.time {
+        font-family: 'Ruda', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 0px;
+        color: #979797;
+        text-align: right;
+    }
+
+        .desc p.time > i {
+            font-size: 12px;
+        }
+
+hr-d {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px dashed #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+p.capitalize {
+    display: block;
+    text-align: left;
+}
+
+    p.capitalize:first-letter {
+        text-transform: capitalize;
+        font-size: 30px;
+        font-family: 'Ruda', sans-serif;
+        font-weight: 400;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 5px;
+    }
+
+.testi-text {
+    width: 100%;
+    float: left;
+    margin: 0px;
+    padding: 10px 14px 0px 14px;
+    font-weight: 400;
+}
+
+
+
+#headerwrap {
+    background: url(../img/bg01.jpg) no-repeat center top;
+    margin-top: 0px;
+    padding-top: 50px;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 450px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+    #headerwrap h1 {
+        margin-left: 60px;
+        color: white;
+        font-size: 50px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        visibility: hidden;
+    }
+
+    #headerwrap h2 {
+        color: white;
+        visibility: hidden;
+    }
+
+    #headerwrap .img-responsive {
+        margin: 0 auto;
+    }
+
+#f {
+    background-color: #1b1b1b;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+    #f p {
+        color: white;
+    }
+
+    #f h4 {
+        color: white;
+    }
+
+
+
+#cta01 {
+    background: url(../img/cta/cta01.jpg) no-repeat center top;
+    margin-top: 0px;
+    padding-top: 100px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 350px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+    #cta01 h1 {
+        color: white;
+        font-weight: 700;
+        margin-bottom: 25px;
+        font-size: 60px;
+    }
+
+    #cta01 h2 {
+        color: white;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+
+#cta02 {
+    background: url(../img/cta/cta02.jpg) no-repeat center top;
+    margin-top: 0px;
+    padding-top: 100px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 350px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+    #cta02 h2 {
+        color: white;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+
+#cta-bar {
+    background: #2f2f2f;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#white {
+    margin-top: 0px;
+    background-color: #ffffff;
+    min-height: 300px;
+    width: 100%;
+}
+
+#grey {
+    margin-top: 0px;
+    background-color: #f7f7f7;
+    min-height: 300px;
+    width: 100%;
+}

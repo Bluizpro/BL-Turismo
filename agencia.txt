@@ -1,0 +1,14 @@
+/* BL&Turismo: */
+
+CREATE TABLE BL_Turismo (
+    Email varchar,
+    ID int PRIMARY KEY,
+    Nome varchar(50),
+    Endereco varchar,
+    CPF int,
+    Bairro varchar,
+    Nascimento int,
+    Telefone int,
+    Cidade varchar
+);
+ 
